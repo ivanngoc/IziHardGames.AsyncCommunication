@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>IziHardGames.AsyncCommunication</RootNamespace>
+    <ProjectGuid>54e75dd8-3d5e-481b-b962-9b5f3e68e822</ProjectGuid>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NuspecFile>IziHardGames.AsyncCommunication.nuspec</NuspecFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.async-abstractions.netstd21\IziHardGames.Async.Abstractions.csproj" />
+    <ProjectReference Include="..\..\com.izihardgames.async\NetStd21\izhg.Async.NetStd21\IziHardGames.Async.csproj" />
+  </ItemGroup>
+</Project>

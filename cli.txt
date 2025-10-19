@@ -1,0 +1,2 @@
+﻿C:\Program Files\dotnet\library-packs
+dotnet build src\IziHardGames.AsyncCommunication\IziHardGames.AsyncCommunication.csproj --configuration  Release

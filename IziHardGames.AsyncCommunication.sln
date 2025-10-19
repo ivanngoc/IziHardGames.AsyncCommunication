@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.AsyncCommunication", "src\IziHardGames.AsyncCommunication\IziHardGames.AsyncCommunication.csproj", "{684B678F-472C-419B-67A8-56AA75A047B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{5EE05187-CBCA-43A1-B410-AA99655F2EE4}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{835E969A-A5E2-40F8-AF54-D7AC7E830B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.AsyncCommunication.UnitTests", "tests\IziHardGames.AsyncCommunication.UnitTests\IziHardGames.AsyncCommunication.UnitTests.csproj", "{EA4E64B4-AEC7-4856-B790-E79C2DCB89EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.Threading", "com.izihardgames.async\NetStd21\Aysnc\IziHardGames.Threading.csproj", "{4CA7CD7E-299B-4C4E-B460-FF69898E4C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.Async", "com.izihardgames.async\NetStd21\izhg.Async.NetStd21\IziHardGames.Async.csproj", "{4D08EDC4-23C7-4AE1-9450-D503905C3B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsCustomTaskSources", "com.izihardgames.async\Tests\TestsCustomTaskSources\TestsCustomTaskSources.csproj", "{7B81F6BD-A338-4015-86FD-083ADA244FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.Async.Unity", "com.izihardgames.async.unity\Any\IziHardGames.Async.Unity.csproj", "{15FA5AFF-464A-423F-A018-8584288A1292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.Async.Abstractions", "com.izihardgames.async-abstractions.netstd21\IziHardGames.Async.Abstractions.csproj", "{5DC8E82E-905C-49F9-A42F-A55E5BAA1F94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{7877D32D-2A0C-404F-B931-765BD8233E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.Async.Dist.Unity", "dist\IziHardGames.Async.Dist.Unity\IziHardGames.Async.Dist.Unity.csproj", "{E8206A99-20A7-4C87-86EE-6255555551C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684B678F-472C-419B-67A8-56AA75A047B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684B678F-472C-419B-67A8-56AA75A047B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684B678F-472C-419B-67A8-56AA75A047B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684B678F-472C-419B-67A8-56AA75A047B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4E64B4-AEC7-4856-B790-E79C2DCB89EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4E64B4-AEC7-4856-B790-E79C2DCB89EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4E64B4-AEC7-4856-B790-E79C2DCB89EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4E64B4-AEC7-4856-B790-E79C2DCB89EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA7CD7E-299B-4C4E-B460-FF69898E4C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA7CD7E-299B-4C4E-B460-FF69898E4C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA7CD7E-299B-4C4E-B460-FF69898E4C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA7CD7E-299B-4C4E-B460-FF69898E4C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D08EDC4-23C7-4AE1-9450-D503905C3B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D08EDC4-23C7-4AE1-9450-D503905C3B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D08EDC4-23C7-4AE1-9450-D503905C3B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D08EDC4-23C7-4AE1-9450-D503905C3B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B81F6BD-A338-4015-86FD-083ADA244FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B81F6BD-A338-4015-86FD-083ADA244FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B81F6BD-A338-4015-86FD-083ADA244FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B81F6BD-A338-4015-86FD-083ADA244FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FA5AFF-464A-423F-A018-8584288A1292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FA5AFF-464A-423F-A018-8584288A1292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FA5AFF-464A-423F-A018-8584288A1292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FA5AFF-464A-423F-A018-8584288A1292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC8E82E-905C-49F9-A42F-A55E5BAA1F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC8E82E-905C-49F9-A42F-A55E5BAA1F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC8E82E-905C-49F9-A42F-A55E5BAA1F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC8E82E-905C-49F9-A42F-A55E5BAA1F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8206A99-20A7-4C87-86EE-6255555551C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8206A99-20A7-4C87-86EE-6255555551C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8206A99-20A7-4C87-86EE-6255555551C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8206A99-20A7-4C87-86EE-6255555551C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{684B678F-472C-419B-67A8-56AA75A047B9} = {7877D32D-2A0C-404F-B931-765BD8233E68}
+		{EA4E64B4-AEC7-4856-B790-E79C2DCB89EE} = {835E969A-A5E2-40F8-AF54-D7AC7E830B52}
+		{4CA7CD7E-299B-4C4E-B460-FF69898E4C55} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{4D08EDC4-23C7-4AE1-9450-D503905C3B1A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{7B81F6BD-A338-4015-86FD-083ADA244FBD} = {835E969A-A5E2-40F8-AF54-D7AC7E830B52}
+		{15FA5AFF-464A-423F-A018-8584288A1292} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5DC8E82E-905C-49F9-A42F-A55E5BAA1F94} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{E8206A99-20A7-4C87-86EE-6255555551C1} = {7877D32D-2A0C-404F-B931-765BD8233E68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3FBA1F5-C03F-42D2-8E02-241CC80F49E4}
+	EndGlobalSection
+EndGlobal

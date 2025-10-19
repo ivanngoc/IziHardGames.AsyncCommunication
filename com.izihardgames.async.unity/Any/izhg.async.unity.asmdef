@@ -1,0 +1,18 @@
+{
+  "name": "izhg.async.unity",
+  "rootNamespace": "IziHardGames.Async.Unity",
+  "references": [
+    "GUID:c093f49a7aa321d4ba2f48f055717533",
+    "GUID:6ccf47a16cf05c549925e572fdfbad50"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "UNITY_META_GUID": "584f461e-4d71-85e4-dad5-eedeb115c6a0"
+}

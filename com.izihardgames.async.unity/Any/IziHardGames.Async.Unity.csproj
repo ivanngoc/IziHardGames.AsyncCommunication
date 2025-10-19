@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectGuid>15fa5aff-464a-423f-a018-8584288a1292</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <Description></Description>
+    <Author>Tran Ngoc Anh</Author>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IziHardGames.Refs.UnityEngine6000" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\com.izihardgames.async-abstractions.netstd21\IziHardGames.Async.Abstractions.csproj" />
+    <ProjectReference Include="..\..\com.izihardgames.async\NetStd21\izhg.Async.NetStd21\IziHardGames.Async.csproj" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\Unity3d Dlls\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>-->
+  <!--<ItemGroup>
+    <ProjectReference Include="$(IZHG_ROOT)\com.izihardgames.async-abstractions.netstd21\Runtime\Any\izhg.async.abstractions.netstd21.asmdef.csproj">
+      <Project>47978e0f-0a3b-4cb2-837e-ccadca8d6fe1</Project>
+    </ProjectReference>
+    <ProjectReference Include="$(IZHG_ROOT)\com.izihardgames.tasking.async.netstd21\Any\izhg.async.netstd21.asmdef.csproj">
+      <Project>3825a92d-3c85-42f4-83ee-5a6d2b4dba70</Project>
+    </ProjectReference>
+  </ItemGroup>-->
+</Project>

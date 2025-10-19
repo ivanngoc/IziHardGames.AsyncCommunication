@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>IziHardGames.AsyncCommunication</id>
+    <version>0.0.21</version>
+    <authors>Tran Ngoc Anh</authors>
+    <description>A brief description of your package.</description>
+
+    <tags>tag1 tag2 tag3</tags>
+    <license type="expression">MIT</license>
+    <releaseNotes>Initial release.</releaseNotes>
+    <readme>README.md</readme>
+    <copyright>Copyright © 2025 IziHardGames</copyright>
+    <dependencies>
+      <group>
+
+      </group>
+      <group targetFramework="netstandard2.1">
+        <!-- Add dependencies specific to .NET 8.0 here -->
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.1\IziHardGames.AsyncCommunication.dll" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.AsyncCommunication.pdb" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.AsyncCommunication.xml" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.Async.Abstractions.dll" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.Async.Abstractions.pdb" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.Async.Abstractions.xml" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.Async.dll" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.Async.pdb" target="lib\netstandard2.1" />
+    <file src="bin\Release\netstandard2.1\IziHardGames.Async.xml" target="lib\netstandard2.1" />
+    <file src="LICENSE" />
+    <file src="README.md" />
+  </files>
+</package>

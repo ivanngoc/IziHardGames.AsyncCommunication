@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectName>IziHardGames.Libs.NonEngine.Threading.Async.asmdef</ProjectName>
+    <ProjectGuid>4ca7cd7e-299b-4c4e-b460-ff69898e4c55</ProjectGuid>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <Authors>Tran Ngoc Anh</Authors>
+    <Company>IziHardGames</Company>
+    <Description></Description>
+    <Author>Tran Ngoc Anh</Author>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<ProjectReference Include="$(IZHG_ROOT)\com.izihardgames.collections.pack\Collections\izhg.collections.unsorted.netstd21.csproj">
+      <Project>0f749f48-6ecc-456c-b362-c643ad522253</Project>
+    </ProjectReference>-->
+    <!--<ProjectReference Include="$(IZHG_ROOT)\com.izihardgames.pools.netstd21\Runtime\Any\izhg.pools.netstd21.asmdef.csproj">
+      <Project>706eeb85-5f98-44c4-bfb4-e929fc152544</Project>
+    </ProjectReference>-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IziHardGames.Pools.Contracts" />
+  </ItemGroup>
+</Project>

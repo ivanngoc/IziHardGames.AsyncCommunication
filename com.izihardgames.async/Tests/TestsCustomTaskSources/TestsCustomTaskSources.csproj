@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <ProjectGuid>7b81f6bd-a338-4015-86fd-083ada244fbd</ProjectGuid>
+    <Author>Tran Ngoc Anh</Author>
+    <Company>IziHardGames</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Moq" />
+    <PackageReference Include="Moq.AutoMock" />
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <!--<PackageReference Include="xunit.extensibility.core" Version="2.8.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NetStd21\Aysnc\IziHardGames.Threading.csproj" />
+    <ProjectReference Include="..\..\NetStd21\izhg.Async.NetStd21\IziHardGames.Async.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+</Project>
