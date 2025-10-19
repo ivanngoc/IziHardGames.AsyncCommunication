@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>IziHardGames.Async</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ProjectGuid>5dc8e82e-905c-49f9-a42f-a55e5baa1f94</ProjectGuid>
+    <Author>Tran Ngoc Anh</Author>
+    <Company>IziHardGames</Company>
+  </PropertyGroup>
+</Project>
