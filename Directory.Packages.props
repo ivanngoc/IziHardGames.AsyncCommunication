@@ -13,7 +13,10 @@
   <ItemGroup>
     <PackageVersion Include="IziHardGames.Pools.Standard" Version="0.0.1" />
     <PackageVersion Include="IziHardGames.Pools.Contracts" Version="0.0.8" />
+    <PackageVersion Include="IziHardGames.EventDrivenDesign.Abstractions" Version="0.0.1" />
     <PackageVersion Include="IziHardGames.Refs.UnityEngine6000" Version="1.0.1" />
+    <PackageVersion Include="PolySharp" Version="1.15.0" />
+    <PackageVersion Include="NuGetizer" Version="1.4.6" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(IsTestProject)'=='true'">

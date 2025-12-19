@@ -15,4 +15,15 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\com.izihardgames.async-abstractions.netstd21\IziHardGames.Async.Abstractions.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGetizer">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="PolySharp">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>

@@ -1,9 +1,7 @@
 using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using IziHardGames.Libs.Async;
-using IziHardGames.Libs.NonEngine.Async.Abstractions;
-using UnityEngine;
+using IziHardGames.Async.Attributes;
 using AsyncOperation = UnityEngine.AsyncOperation;
 
 namespace IziHardGames

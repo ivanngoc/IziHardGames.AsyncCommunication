@@ -1,6 +1,4 @@
-﻿using IziHardGames.AsyncCommunication.Application.Helpers;
-using IziHardGames.AsyncCommunication.Contracts.EventDrivenDesign;
-using IziHardGames.AsyncCommunication.Promises;
+﻿using IziHardGames.AsyncCommunication.Promises;
 
 namespace IziHardGames.AsyncCommunication.UnitTests
 {
@@ -29,44 +27,6 @@ namespace IziHardGames.AsyncCommunication.UnitTests
             await cts.CancelAsync();
         }
 
-        [Fact]
-        public void Should_FindTypes()
-        {
-            var etor = ReflectionHelper.GetConsumerMetasEnumerable(typeof(ConsumerStr).Assembly);
-            var count = 0;
-            foreach (var item in etor)
-            {
-                count++;
-                if (item.ActulaType == typeof(ConsumerStr))
-                {
-                    Assert.Equal(typeof(string), item.EventType);
-                }
-                else if (item.ActulaType == typeof(ConsumerInt))
-                {
-                    Assert.Equal(typeof(int), item.EventType);
-                }
-                else
-                {
-                    throw new InvalidOperationException();
-                }
-            }
-            Assert.Equal(2, count);
-        }
-
-        private class ConsumerStr : IConsumer<string>
-        {
-            public async Task ConsumeAsync(string e)
-            {
-                await Task.CompletedTask;
-            }
-        }
-
-        private class ConsumerInt : IConsumer<int>
-        {
-            public async Task ConsumeAsync(int e)
-            {
-                await Task.CompletedTask;
-            }
-        }
+        
     }
 }

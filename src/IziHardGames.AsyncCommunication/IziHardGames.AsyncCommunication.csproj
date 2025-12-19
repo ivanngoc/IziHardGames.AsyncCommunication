@@ -10,11 +10,21 @@
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <NuspecFile>IziHardGames.AsyncCommunication.nuspec</NuspecFile>
+    <PackageId>IziHardGames.AsyncCommunication</PackageId>
+    <PackageTags>Async;Abstractions;</PackageTags>
+    <Version>0.0.22</Version>
+    <!--<NuspecFile>IziHardGames.AsyncCommunication.nuspec</NuspecFile>-->
   </PropertyGroup>
 
   <ItemGroup>
-    
+    <PackageReference Include="NuGetizer">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="PolySharp">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
